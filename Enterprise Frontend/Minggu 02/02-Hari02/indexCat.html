@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cat</title>
+</head>
+<body>
+
+<script>
+	let cat=  {
+name: "Roy",
+tiredness:0,
+hunger:0,
+loneliness:0,
+happiness:0,
+//increase
+feed: function(fullness){
+  this.hunger= fullness + this.hunger
+  console.log(`${this.name} is ${this.hunger} %  full `)
+  return this.hunger;
+},
+energized:function (hour){
+  this.tiredness = hour+this.tiredness
+  console.log(`${this.name} is ${this.tiredness} %  energized `)
+  return this.tiredness;
+},
+socialLife:function(hangout){
+  this.happiness = hangout+this.happiness
+  console.log(`${this.name} is ${this.happiness} %  happy `)
+  return this.happiness;
+},
+//decrease
+feedMinus:function(gettingHungry){
+  this.hunger = gettingHungry-this.hunger
+  console.log(`${this.name} is getting ${this.hunger} %  hungry `)
+  return this.hunger;
+},
+sleep:function (gettingSleepy){
+  this.tiredness = gettingSleepy-this.tiredness
+  console.log(`${this.name} is getting ${this.tiredness} %  sleepy `)
+  return this.tiredness;
+},
+isolated:function(alone){
+  this.happiness = alone-this.happiness
+  console.log(`${this.name} is getting ${this.happiness} %  isolated `)
+  return this.happiness;
+}
+}
+</script>
+
+</body>
+</html>

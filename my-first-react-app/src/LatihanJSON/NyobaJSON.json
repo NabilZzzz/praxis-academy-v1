@@ -1,0 +1,32 @@
+
+[{
+        "nama"  :   "Nabil Muhyiddin",
+        "NIM"   :   "20/462091/PA/20063",
+        "kelas" :   "ELA",
+        "lulus" :   false,
+        "dosbing"   :   ["Danang", "Andi", "Dino"]
+},
+{
+    "nama": "Luhut Panjaitan",
+    "NIM": "20/462093/PA/20065",
+    "kelas": "ELB",
+    "lulus": true,
+    "dosbing": [
+        "KyuRazz",
+        "Golok",
+        "Rin"
+    ]
+},
+{
+    "nama": "Jokowi",
+    "NIM": "20/462095/PA/20067",
+    "kelas": "ELC",
+    "lulus": true,
+    "dosbing": [
+        "JinxPro",
+        "NextJack",
+        "Leo"
+    ]
+}
+]
+
